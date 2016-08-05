@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NumberCruncher()
+comment0.text=\r\n\ default\ constructor\ for\ objects\ of\ type\ NumberCruncher\r\n\ \r\n
+comment1.params=listSize
+comment1.target=int\ maximum(int)
+comment1.text=\r\n\ finds\ the\ maximum\ value\ within\ a\ list\ of\ integers\r\n\ \r\n\ @param\ listSize\ number\ of\ integers\ in\ the\ list\ to\ be\ processed\r\n
+comment2.params=numbers
+comment2.target=int\ maximum(int[])
+comment2.text=\r\n\ finds\ the\ maximum\ value\ within\ an\ array\ of\ integers\r\n\ \r\n\ @param\ numbers\ the\ array\ to\ be\ processed\r\n
+comment3.params=listSize
+comment3.target=double\ average(int)
+comment3.text=\r\n\ calculates\ the\ average\ (mean)\ of\ a\ list\ of\ integers\r\n\ \r\n\ @param\ listSize\ number\ of\ integers\ in\ the\ list\ to\ be\ processed\r\n
+comment4.params=numbers
+comment4.target=double\ average(int[])
+comment4.text=\r\n\ calculates\ the\ average\ (mean)\ of\ an\ array\ of\ integers\r\n\ \r\n\ @param\ numbers\ the\ array\ to\ be\ processed\r\n
+numComments=5
