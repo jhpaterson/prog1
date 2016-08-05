@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=Item(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ type\ Item\r\n\r\n\ @param\ description\ \ \ value\ for\ the\ description\ \r\n
+comment1.params=
+comment1.target=java.lang.String\ getDescription()
+comment1.text=\r\n\ Returns\ the\ description\ of\ the\ item\r\n\r\n\ @return\ \ \ \ the\ description\r\n
+comment2.params=description
+comment2.target=void\ setDescription(java.lang.String)
+comment2.text=\r\n\ Sets\ the\ value\ of\ description\r\n\r\n\ @param\ \ description\ \ \ the\ new\ value\ of\ description\r\n
+comment3.params=
+comment3.target=void\ use()
+comment3.text=\r\n\ Use\ the\ item\r\n\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ String\ representation\ of\ this\ object\r\n\r\n\ @return\ \ a\ String\ represention\ of\ this\ object\r\n
+comment5.params=o
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ Returns\ true\ if\ this\ object\ and\ the\ object\ under\ test\ have\ the\r\n\ same\ value\ in\ the\ description\ property.\ \r\n\ Modify\ this\ method\ if\ you\ want\ to\ define\ equality\ differently\r\n\r\n\ @param\ o\ \ the\ object\ to\ be\ tested\ for\ equality\ with\ this\ one\r\n\ @return\ \ true\ or\ false\r\n
+numComments=6

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane id="GridPane" prefHeight="300" prefWidth="400" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.gcu.adventurefx.AdventureFXController">
+    <children>
+      
+      <Button fx:id="westbutton"  onAction="#handleWestButtonAction" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="GO WEST" GridPane.rowIndex="1" />
+      <Button fx:id="northbutton"  onAction="#handleNorthButtonAction" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="GO NORTH" GridPane.columnIndex="1" />
+      <Button fx:id="southbutton"  onAction="#handleSouthButtonAction" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="GO SOUTH" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button fx:id="eastbutton"  onAction="#handleEastButtonAction" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="GO EAST" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextArea fx:id="displayarea" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <HBox spacing="5.0" GridPane.columnSpan="2" GridPane.rowIndex="3" GridPane.vgrow="NEVER">
+         <children>
+            <Label text="Other command" />
+            <TextField fx:id="commandfield" />
+            <Button fx:id="button" onAction="#handleButtonAction" text="Submit" />
+  
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+         </padding>
+      </HBox>
+    </children>
+   <columnConstraints>
+      <ColumnConstraints hgrow="NEVER" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="NEVER" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints vgrow="NEVER" />
+      <RowConstraints vgrow="NEVER" />
+   </rowConstraints>
+   <stylesheets>
+        <URL value="@adventure.css" />
+    </stylesheets>
+</GridPane>

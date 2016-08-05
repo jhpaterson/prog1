@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=commands
+comment0.target=Parser(java.lang.String[])
+comment0.text=\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window.\n\ \n\ @param\ commands\ \ \ an\ array\ of\ valid\ command\ words\n
+comment1.params=
+comment1.target=Command\ getCommand()
+comment1.text=\n\ builds\ a\ command\ from\ the\ user\ input\n\n\ @return\ the\ command\ built\ from\ the\ user\ input\n
+comment2.params=commandWord
+comment2.target=boolean\ isValidCommand(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ showCommands()
+comment3.text=\n\ returns\ a\ list\ of\ valid\ command\ words\ formatted\ as\ a\ string\n\n\ @return\ the\ list\ of\ valid\ commands\n
+numComments=4

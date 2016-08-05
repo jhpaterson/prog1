@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=Room(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ type\ Room\n\ \n\ @param\ description\ \ \ a\ description\ of\ the\ room\n
+comment1.params=
+comment1.target=java.lang.String\ getDescription()
+comment1.text=\n\ Returns\ the\ description\ of\ the\ room\n\ \n\ @return\ \ the\ description\n
+comment2.params=newItem
+comment2.target=void\ addItem(Item)
+comment2.text=\n\ Adds\ a\ new\ item\ to\ the\ room\n\ \n\ @param\ newItem\ \ the\ item\ to\ add\n
+comment3.params=
+comment3.target=Item[]\ getItems()
+comment3.text=\n\ Returns\ the\ items\ in\ the\ room\n\ \n\ @return\ \ the\ items\n
+comment4.params=description
+comment4.target=Item\ getItem(java.lang.String)
+comment4.text=\n\ Returns\ the\ item\ with\ a\ specified\ description\n\ \n\ @param\ description\ \ \ the\ description\ of\ the\ specified\ item\n\ @return\ \ the\ specified\ item\n
+comment5.params=direction\ neighbor
+comment5.target=void\ setExit(java.lang.String,\ Room)
+comment5.text=\n\ Define\ an\ exit\ from\ this\ room.\n\ \n\ @param\ direction\ The\ direction\ of\ the\ exit.\n\ @param\ neighbor\ \ The\ room\ to\ which\ the\ exit\ leads.\n
+comment6.params=direction
+comment6.target=Room\ getExit(java.lang.String)
+comment6.text=\n\ Return\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\n\ "direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\n\ \n\ @param\ direction\ The\ exit's\ direction.\n\ @return\ The\ room\ in\ the\ given\ direction.\n
+comment7.params=description
+comment7.target=void\ removeItem(java.lang.String)
+comment7.text=\n\ Removes\ the\ specified\ item\ from\ the\ room\n\ \n\ @param\ description\ \ \ the\ description\ of\ the\ specified\ item\n
+numComments=8

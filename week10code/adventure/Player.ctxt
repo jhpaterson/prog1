@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Player(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n
+comment1.params=
+comment1.target=void\ takeTurn()
+comment1.text=\r\n\ Take\ the\ player's\ turn\ in\ the\ game\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ this\ player\r\n\ \r\n\ @return\ \ the\ player's\ name\r\n
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment3.text=\r\n\ Set\ a\ new\ name\ for\ this\ player\r\n\ \r\n\ @param\ name\ \ \ the\ new\ name\ for\ the\ player\r\n
+comment4.params=
+comment4.target=Room\ getCurrentRoom()
+comment4.text=\r\n\ Returns\ the\ room\ in\ which\ the\ player\ is\ currently\ located\r\n\ \r\n\ @return\ \ the\ room\ in\ which\ the\ player\ is\ currently\ located\r\n
+comment5.params=currentRoom
+comment5.target=void\ setCurrentRoom(Room)
+comment5.text=\r\n\ Sets\ the\ room\ in\ which\ the\ player\ is\ to\ be\ located\r\n\ \r\n\ @param\ currentRoom\ \ the\ room\ in\ which\ the\ player\ is\ to\ be\ located\r\n
+numComments=6

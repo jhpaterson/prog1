@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=Room(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ type\ Room\r\n\ \r\n\ @param\ description\ \ \ a\ description\ of\ the\ room\r\n
+comment1.params=
+comment1.target=java.lang.String\ getDescription()
+comment1.text=\r\n\ Returns\ the\ description\ of\ the\ room\r\n\ \r\n\ @return\ \ the\ description\r\n
+comment2.params=newItem
+comment2.target=void\ addItem(Item)
+comment2.text=\r\n\ Adds\ a\ new\ item\ to\ the\ room\r\n\ \r\n\ @param\ newItem\ \ the\ item\ to\ add\r\n
+comment3.params=
+comment3.target=Item[]\ getItems()
+comment3.text=\r\n\ Returns\ the\ items\ in\ the\ room\r\n\ \r\n\ @return\ \ the\ items\r\n
+comment4.params=description
+comment4.target=Item\ getItem(java.lang.String)
+comment5.params=description
+comment5.target=void\ removeItem(java.lang.String)
+comment5.text=\r\n\ Removes\ the\ specified\ item\ from\ the\ room\r\n\ \r\n\ @param\ description\ \ \ the\ description\ of\ the\ specified\ item\r\n
+numComments=6

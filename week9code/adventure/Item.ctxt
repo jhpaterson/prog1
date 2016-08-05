@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=Item(String)
+comment0.text=\nConstructor\ for\ objects\ of\ type\ Item\n\n@param\ description\ \ \ value\ for\ the\ description\ \n\n
+comment1.target=String\ getDescription()
+comment1.text=\nReturns\ the\ description\ of\ the\ item\n\n@return\ \ \ \ the\ description\n\n
+comment2.params=description
+comment2.target=void\ setDescription(String)
+comment2.text=\nSets\ the\ value\ of\ description\n\n@param\ \ description\ \ \ the\ new\ value\ of\ description\n\n
+comment3.target=void\ use()
+comment3.text=\nUse\ the\ item\n\n\n
+comment4.target=String\ toString()
+comment4.text=\nReturns\ a\ String\ representation\ of\ this\ object\n\n@return\ \ a\ String\ represention\ of\ this\ object\n\n
+numComments=5
