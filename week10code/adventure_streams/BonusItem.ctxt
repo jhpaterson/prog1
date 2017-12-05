@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BonusItem
+comment0.text=\r\n\ represents\ a\ bonus\ item\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=description\ codeWord
+comment1.target=BonusItem(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BonusItem\r\n\ \r\n\ @param\ description\ \ \ a\ description\ of\ the\ item\r\n\ @param\ codeWord\ \ \ the\ secret\ code\ word\r\n
+comment2.params=
+comment2.target=void\ bonus()
+comment2.text=\r\n\ bonus\ -\ prints\ secret\ codeword\r\n
+numComments=3

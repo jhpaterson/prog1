@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Sets\ up\ and\ controls\ the\ game\r\n\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Create\ the\ game\ and\ initialise\ it\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Initialize\ the\ game\ world\r\n
+comment3.params=
+comment3.target=void\ createRooms()
+comment3.text=\r\n\ Create\ the\ rooms\ in\ the\ game\ world\r\n
+comment4.params=
+comment4.target=void\ play()
+comment4.text=\r\n\ \ Main\ play\ routine.\ \ Loops\ until\ end\ of\ play.\r\n
+comment5.params=
+comment5.target=void\ printWelcome()
+comment5.text=\r\n\ Print\ out\ the\ opening\ message\ \r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Create\ and\ play\ a\ game.\r\n
+numComments=7
